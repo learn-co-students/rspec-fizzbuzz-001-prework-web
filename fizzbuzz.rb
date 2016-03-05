@@ -1,0 +1,12 @@
+def fizzbuzz(int)
+
+  if int % 5 == 0 and int % 3 == 0
+    "FizzBuzz"
+    elsif int % 3 == 0 # if the number int is divisible by 3
+    "Fizz" # Go fizz
+    else if int % 5 == 0
+    "Buzz"
+  end
+  end
+end
+
